@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Vhealth - Open source gatsby template`,
-    description: `Free website template for a health care startup.`,
-    author: `Shantanu Deshmukj`,
+    title: `Crack The Box`,
+    description: `The Pandora's Box - Test your analytical and problem-solving skill (with riddles)! Push the limits of your mind! The event has ended. Results out now! Check the results below!`,
+    author: `Rahul Biswas`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -24,7 +24,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/vhealth-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-material-ui`,

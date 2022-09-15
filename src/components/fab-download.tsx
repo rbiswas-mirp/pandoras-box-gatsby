@@ -26,7 +26,7 @@ const FabDownload = () => {
         className={classes.fab}
         color="secondary"
         size="small"
-        href="https://github.com/shantanu-deshmukh/vhealth-gatsby"
+        href="https://github.com/rbiswas-mirp/pandoras-box-gatsby"
         target="_blank"
       >
         <GetAppIcon />

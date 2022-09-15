@@ -1,11 +1,11 @@
 import React from "react"
 import Grid from "@material-ui/core/Grid"
 import Typography from "@material-ui/core/Typography"
-import Button from "@material-ui/core/Button"
 import Image from "./image"
 import Hidden from "@material-ui/core/Hidden"
+import Bar from "./bar"
 
-const Hero = () => {
+const AppsPanelOne = () => {
   return (
     <Grid container spacing={3} style={{ minHeight: 500 }}>
       <Grid
@@ -18,20 +18,18 @@ const Hero = () => {
         alignItems="flex-start"
         style={{ paddingLeft: 40, paddingRight: 40 }}
       >
-        <Typography variant="h3" color="inherit" style={{ marginBottom: 20 }}>
-          Welcome To
-          The Pandora's Box
+        <Typography variant="h4" color="inherit">
+          4. Submit to Win Prizes
         </Typography>
-        <Typography variant="subtitle1" style={{ marginBottom: 30 }}>
-          August 13, 2022 – August 15, 2022
+        <Bar />
+        <Typography
+          variant="subtitle1"
+          style={{ marginBottom: 30, marginTop: 20 }}
+        >
+          Every stage act as a checkpoint. It means that, if you fail to complete a stage, the previous stage will act as your final submission. So, try to complete every stage as quickly as possible to win some exciting prizes!
         </Typography>
-        <Typography variant="subtitle1" style={{ marginBottom: 30 }}>
-          Test your analytical and problem-solving skill (with riddles) Push the limits of your mind! The event has ended. Results out now! Check the results below!
-        </Typography>
-        <Button variant="contained" color="primary" size="large">
-          RESULTS OUT!
-        </Button>
       </Grid>
+
       <Hidden xsDown>
         <Grid
           item={true}
@@ -43,11 +41,14 @@ const Hero = () => {
           style={{ padding: 10 }}
         >
           <div style={{ width: "100%" }}>
-            <Image alt="Virtual Healthcare for you" filename="pandoras-box-hero.png" />
+            <Image
+              alt="Submit to Win Prizes"
+              filename="submit-to-win-prizes.png"
+            />
           </div>
         </Grid>
       </Hidden>
     </Grid>
   )
 }
-export default Hero
+export default AppsPanelOne

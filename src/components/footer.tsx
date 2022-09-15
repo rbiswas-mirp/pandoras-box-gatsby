@@ -2,44 +2,8 @@ import React from "react"
 import Grid from "@material-ui/core/Grid"
 import Typography from "@material-ui/core/Typography"
 import Box from "@material-ui/core/Box"
-import Hidden from "@material-ui/core/Hidden"
-import Link from "@material-ui/core/Link"
-import FabDownload from "./fab-download"
 
 const Footer = () => {
-  const footerLinks = [
-    {
-      title: "Company",
-      items: [
-        { displayText: "About", url: "" },
-        {
-          displayText: "Testimonials",
-          url: "",
-        },
-        { displayText: "Find a Doctor", url: "" },
-        { displayText: "Apps", url: "" },
-      ],
-    },
-    {
-      title: "Region",
-      items: [
-        { displayText: "India", url: "" },
-        { displayText: "Indonesia", url: "" },
-        { displayText: "Singapore", url: "" },
-        { displayText: "Canada", url: "" },
-      ],
-    },
-    {
-      title: "Help",
-      items: [
-        { displayText: "Help Center", url: "" },
-        { displayText: "Contact Support", url: "" },
-        { displayText: "Instructions", url: "" },
-        { displayText: "How it works", url: "" },
-      ],
-    },
-  ]
-
   return (
     <React.Fragment>
       <Box className="footer">
@@ -54,7 +18,7 @@ const Footer = () => {
         >
           <Grid
             xs={12}
-            sm={6}
+            sm={12}
             item
             container
             direction="column"
@@ -62,39 +26,15 @@ const Footer = () => {
             style={{ padding: 10 }}
           >
             <Typography variant="h4" color="inherit">
-              vHealth
+            The Pandora's Box
             </Typography>
             <Typography variant="body2" color="inherit">
-              vHealth provides progressive, and affordable healthcare,
-              accessible on mobile and online for everyone
+            Test your analytical and problem-solving skill (with riddles) Push the limits of your mind! The event has ended. Results out now! Check the results above!
             </Typography>
             <Typography variant="body2" color="inherit">
-              ©vHealth PTY LTD 2020. All rights reserved
+              ©Pandora's Box 2022 | All rights reserved
             </Typography>
           </Grid>
-
-          <Hidden xsDown>
-            {footerLinks.map(footerMenu => (
-              <Grid
-                item
-                xs={12}
-                sm={2}
-                container
-                direction="column"
-                justify="space-evenly"
-                key={footerMenu.title}
-              >
-                <Typography variant="subtitle1" color="inherit">
-                  {footerMenu.title}
-                </Typography>
-                {footerMenu.items.map(link => (
-                  <Link color="inherit" variant="body2" key={link.displayText}>
-                    {link.displayText}
-                  </Link>
-                ))}
-              </Grid>
-            ))}
-          </Hidden>
         </Grid>
       </Box>
       <Box className="attribution">
@@ -112,27 +52,26 @@ const Footer = () => {
           alignItems="center"
         >
           <Typography variant="body2" color="inherit">
-            Created by{" "}
+            Contact Us @{" "}
             <a
-              href="https://shantanudeshmukh.com/"
+              href="support@pandoras-box.tech"
               target="_blank"
               style={{ color: "#FFF" }}
             >
-              Shantanu Deshmukh
+              support@pandoras-box.tech
             </a>
           </Typography>
           <Typography variant="body2" color="inherit">
             Designed by
             <a
-              href="https://dribbble.com/slabdsgn"
+              href="https://rahulbiswas.net/"
               target="_blank"
               style={{ color: "#FFF", margin: 5 }}
             >
-              SLAB Design Studio
+              Rahul Biswas
             </a>
           </Typography>
         </Grid>
-        <FabDownload />
       </Box>
     </React.Fragment>
   )

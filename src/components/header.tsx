@@ -49,11 +49,7 @@ const Header = ({ companyName }: Props) => {
   }
 
   const navLinks = [
-    { displayText: "Home", link: "#" },
-    { displayText: "Services", link: "#services" },
-    { displayText: "Apps", link: "#apps" },
-    { displayText: "Testimonials", link: "#testimonials" },
-    { displayText: "Blog", link: "#blog" },
+    { displayText: "support@pandoras-box.tech"},
   ]
 
   return (
@@ -76,7 +72,7 @@ const Header = ({ companyName }: Props) => {
             color="inherit"
             className={classes.toolbarTitle}
           >
-            vHealth
+            The Pandora's Box
           </Typography>
 
           <Hidden xsDown>
