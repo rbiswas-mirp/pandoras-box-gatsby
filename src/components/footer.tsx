@@ -62,13 +62,13 @@ const Footer = () => {
             </a>
           </Typography>
           <Typography variant="body2" color="inherit">
-            Designed by
+            Latest Updates
             <a
-              href="https://rahulbiswas.net/"
+              href="https://updates.pandoras-box.tech"
               target="_blank"
               style={{ color: "#FFF", margin: 5 }}
             >
-              Rahul Biswas
+              Pandoras Box Updates
             </a>
           </Typography>
         </Grid>
