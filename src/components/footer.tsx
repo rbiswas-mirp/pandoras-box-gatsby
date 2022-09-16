@@ -54,7 +54,7 @@ const Footer = () => {
           <Typography variant="body2" color="inherit">
             Contact Us @{" "}
             <a
-              href="support@pandoras-box.tech"
+              href="mailto:support@pandoras-box.tech"
               target="_blank"
               style={{ color: "#FFF" }}
             >
