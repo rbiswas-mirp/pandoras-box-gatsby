@@ -4,7 +4,6 @@ import Typography from "@material-ui/core/Typography"
 import Button from "@material-ui/core/Button"
 import Image from "./image"
 import Hidden from "@material-ui/core/Hidden"
-import { Link } from "gatsby"
 
 const Hero = () => {
   return (
