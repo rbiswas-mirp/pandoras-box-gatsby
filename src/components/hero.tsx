@@ -29,24 +29,9 @@ const Hero = () => {
         <Typography variant="subtitle1" style={{ marginBottom: 30 }}>
           Test your analytical and problem-solving skill (with riddles) Push the limits of your mind! The event has ended. Results out now! Check the results below!
         </Typography>
-        <Typography variant="subtitle2" style={{ marginBottom: 30 }}>
-          N.B These certificates have been provided by the event organizers and NOT by IIT Madras Paradox.
-        </Typography>
-        <Link style={{textDecoration: 'none'}} to="https://drive.google.com/drive/folders/1KPCWxoAl0eUdtIAHcTHB7nSm03EUuurJ?usp=sharing" >
         <Button variant="contained" color="primary" size="large">
-          PARTICIPATION CERTIFICATES
+          REGISTRATIONS CLOSED
         </Button>
-        </Link>
-        <Link style={{textDecoration: 'none'}} to="https://drive.google.com/drive/folders/1lbqrujFmlmSIWFqnAJ3fl5dLDlSa5ai_?usp=sharing" >
-        <Button variant="contained" color="primary" size="large" style={{ marginTop: 10 }}>
-          ROUND 4 CERTIFICATES
-        </Button>
-        </Link>
-        <Link style={{textDecoration: 'none'}} to="https://drive.google.com/drive/folders/1FAfrOx0DWkupZxWhqSSLe9TEAhmCT5RL?usp=sharing" >
-        <Button variant="contained" color="primary" size="large" style={{ marginTop: 10 }}>
-          WINNER CERTIFICATES
-        </Button>
-        </Link>
       </Grid>
       <Hidden xsDown>
         <Grid
