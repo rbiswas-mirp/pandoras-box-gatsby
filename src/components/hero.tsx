@@ -26,7 +26,7 @@ const Hero = () => {
           August 13, 2022 – August 15, 2022
         </Typography>
         <Typography variant="subtitle1" style={{ marginBottom: 30 }}>
-          Test your analytical and problem-solving skill (with riddles) Push the limits of your mind! The event has ended. Results out now! Check the results below!
+          Test your analytical and problem-solving skill (with riddles) Push the limits of your mind! The event has ended.
         </Typography>
         <Button variant="contained" color="primary" size="large">
           REGISTRATIONS CLOSED
