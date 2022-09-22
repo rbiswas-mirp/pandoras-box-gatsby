@@ -66,8 +66,8 @@ const RegistrationForm = () => {
           <form
             name="registration"
             method="post"
-            // data-netlify="true"
-            // data-netlify-honeypot="bot-field"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
             action="/success/"
             autoComplete="off"
             onSubmit={handleSubmit}
