@@ -65,9 +65,9 @@ const RegistrationForm = () => {
           <form
             name="registration"
             method="post"
-            // data-netlify="true"
-            // data-netlify-honeypot="bot-field"
-            action="https://formspree.io/f/mqkjqkoe"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+            action="/success/"
             autoComplete="off"
             onSubmit={handleSubmit}
           >
