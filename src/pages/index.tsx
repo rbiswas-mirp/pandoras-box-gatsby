@@ -10,7 +10,7 @@ import ThemeProvider from "@material-ui/styles/ThemeProvider"
 import theme from "../theme"
 import AppsPanel from "../components/apps-panel"
 import AppsPanelOne from "../components/apps-panel-one"
-import Registration from "../components/registration"
+import RegistrationClosed from "../components/registrationClosed"
 
 const IndexPage = () => (
   <React.Fragment>
@@ -23,7 +23,7 @@ const IndexPage = () => (
         <AppsPanel />
         <AboutPanelOne />
         <AppsPanelOne />
-        <Registration />
+        <RegistrationClosed />
       </Layout>
     </ThemeProvider>
   </React.Fragment>

@@ -68,7 +68,7 @@ const RegistrationForm = () => {
             method="post"
             // data-netlify="true"
             // data-netlify-honeypot="bot-field"
-            action="https://formsubmit.co/randallevans6872+form@gmail.com"
+            action="/success/"
             autoComplete="off"
             onSubmit={handleSubmit}
           >
