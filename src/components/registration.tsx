@@ -3,7 +3,6 @@ import Grid from "@material-ui/core/Grid"
 import Typography from "@material-ui/core/Typography"
 import Bar from "./bar"
 import * as Yup from 'yup';
-
 import { Formik } from 'formik';
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
@@ -66,9 +65,9 @@ const RegistrationForm = () => {
           <form
             name="registration"
             method="post"
-            data-netlify="true"
-            data-netlify-honeypot="bot-field"
-            action="/success/"
+            // data-netlify="true"
+            // data-netlify-honeypot="bot-field"
+            action="https://formspree.io/f/mqkjqkoe"
             autoComplete="off"
             onSubmit={handleSubmit}
           >
