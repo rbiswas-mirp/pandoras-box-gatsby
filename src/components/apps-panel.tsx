@@ -2,7 +2,6 @@ import React from "react"
 import Grid from "@material-ui/core/Grid"
 import Typography from "@material-ui/core/Typography"
 import Image from "./image"
-import Hidden from "@material-ui/core/Hidden"
 import Bar from "./bar"
 
 const AppsPanel = () => {
@@ -29,8 +28,6 @@ const AppsPanel = () => {
           Search for the solution as soon as possible to clear a stage as time is one of the factors in the selection of the winners. Think carefully and read everything on the page
         </Typography>
       </Grid>
-
-      <Hidden xsDown>
         <Grid
           item={true}
           sm={6}
@@ -47,7 +44,6 @@ const AppsPanel = () => {
             />
           </div>
         </Grid>
-      </Hidden>
     </Grid>
   )
 }

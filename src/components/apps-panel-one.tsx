@@ -2,7 +2,6 @@ import React from "react"
 import Grid from "@material-ui/core/Grid"
 import Typography from "@material-ui/core/Typography"
 import Image from "./image"
-import Hidden from "@material-ui/core/Hidden"
 import Bar from "./bar"
 
 const AppsPanelOne = () => {
@@ -29,8 +28,6 @@ const AppsPanelOne = () => {
           Every stage act as a checkpoint. It means that, if you fail to complete a stage, the previous stage will act as your final submission. So, try to complete every stage as quickly as possible to win some exciting prizes!
         </Typography>
       </Grid>
-
-      <Hidden xsDown>
         <Grid
           item={true}
           sm={6}
@@ -47,7 +44,6 @@ const AppsPanelOne = () => {
             />
           </div>
         </Grid>
-      </Hidden>
     </Grid>
   )
 }

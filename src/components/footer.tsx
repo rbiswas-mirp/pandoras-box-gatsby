@@ -23,7 +23,7 @@ const Footer = () => {
             container
             direction="column"
             justify="space-evenly"
-            style={{ padding: 10 }}
+            style={{ paddingLeft: 30, paddingRight: 30, paddingTop: 10, paddingBottom: 10 }}
           >
             <Typography variant="h4" color="inherit">
             The Pandora's Box

@@ -2,13 +2,11 @@ import React from "react"
 import Grid from "@material-ui/core/Grid"
 import Typography from "@material-ui/core/Typography"
 import Image from "./image"
-import Hidden from "@material-ui/core/Hidden"
 import Bar from "./bar"
 
 const AboutPanelOne = () => {
   return (
     <Grid container spacing={3} style={{ minHeight: 500 }}>
-      <Hidden xsDown>
         <Grid
           item={true}
           sm={6}
@@ -25,7 +23,6 @@ const AboutPanelOne = () => {
             />
           </div>
         </Grid>
-      </Hidden>
       <Grid
         item={true}
         xs={12}

@@ -3,7 +3,6 @@ import Grid from "@material-ui/core/Grid"
 import Typography from "@material-ui/core/Typography"
 import Button from "@material-ui/core/Button"
 import Image from "./image"
-import Hidden from "@material-ui/core/Hidden"
 
 const Hero = () => {
   return (
@@ -32,7 +31,6 @@ const Hero = () => {
           REGISTRATIONS CLOSED
         </Button>
       </Grid>
-      <Hidden xsDown>
         <Grid
           item={true}
           sm={6}
@@ -46,7 +44,6 @@ const Hero = () => {
             <Image alt="Virtual Healthcare for you" filename="pandoras-box-hero.png" />
           </div>
         </Grid>
-      </Hidden>
     </Grid>
   )
 }
